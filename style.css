@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+body {
+    margin: 0px;
+
+}
+
+.bg-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.mode {
+    display: flex;
+
+}
+
+button {
+    width: 45px;
+    padding: 4px;
+    margin: 4px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background: transparent;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input {
+    text-align: end;
+    min-width: 50px;
+    width: 230px;
+    margin: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    color: orange;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+#selectMode {
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+option {
+    color: white;
+    background-color: black;
+}
+
+button:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+
+
+@media(width>=600px) {
+    .border {
+        border: 1px solid black;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: transparent;
+    }
+
+    button {
+        padding: 15px;
+    }
+
+}
