@@ -4,6 +4,27 @@ A responsive and user-friendly calculator built with **HTML, CSS, and JavaScript
 
 ---
 
+## 🌐 Live Demo  
+🔗 [Click here to use the calculator](https://scientificalsi.ccbp.tech/)  
+
+---
+
+## 🖼️ Screenshots  
+
+### Options Shown 
+![image](https://github.com/user-attachments/assets/f50685a1-0311-4f42-9c53-b8784e1467c2)
+
+
+### 💡 Normal Mode  
+![image](https://github.com/user-attachments/assets/90ab2b5a-071e-4a4f-b5b5-72405a012561)
+
+
+### 🧪 Scientific Mode  
+![image](https://github.com/user-attachments/assets/998ff40f-27fe-4917-b4d8-644b294e77c6)
+
+
+---
+
 ## **Features** ✨  
 - **Normal Mode**: Perform basic arithmetic operations (+, -, ×, ÷).  
 - **Scientific Mode**: Calculate advanced functions:  
@@ -32,15 +53,14 @@ A responsive and user-friendly calculator built with **HTML, CSS, and JavaScript
 
 ---
 
-## **Preview** 👀  
-🎨 Clean and interactive UI for seamless user experience.  
+## 📊 Challenges & Solutions  
 
----
-
-## **Getting Started** 🚀  
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/Manojkumar2806/Simple-Scientific-Calculator.git
+| Challenge | Solution |
+|----------|----------|
+| Making trigonometric and logarithmic functions work correctly | Used `Math` object in JavaScript like `Math.sin()`, `Math.log()` etc. |
+| Designing buttons for both calculator types in a single UI | Used conditional rendering and class toggles to show/hide buttons |
+| Making the layout responsive on all screen sizes | Used Bootstrap grid and media queries |
+| Managing input validation for complex operations | Wrote utility functions to handle user input safely |
 
 ---
 
